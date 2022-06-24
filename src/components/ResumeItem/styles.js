@@ -8,14 +8,19 @@ export const Container = styled.div`
   border-radius: 5px;
   padding: 5px 15px;
   width: 30%;
+
   @media (max-width: 750px) {
     width: 20%;
+    flex-wrap: wrap;
+
     p {
       font-size: 12px;
     }
+
     span {
       font-size: 20px;
     }
+
     svg {
       display: none;
     }
@@ -29,6 +34,7 @@ export const Header = styled.header`
   width: 100%;
   gap: 10px;
   margin: 20px auto;
+
   svg {
     width: 25px;
     height: 25px;

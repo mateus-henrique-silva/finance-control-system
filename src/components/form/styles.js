@@ -11,6 +11,7 @@ export const Container = styled.div`
   justify-content: space-around;
   padding: 15px 0px;
   gap: 10px;
+
   @media (max-width: 750px) {
     display: grid;
   }
@@ -34,6 +35,7 @@ export const Input = styled.input`
 export const RadioGroup = styled.div`
   display: flex;
   align-items: center;
+
   input {
     margin-left: 20px;
     margin-right: 5px;
