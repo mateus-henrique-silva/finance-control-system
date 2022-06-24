@@ -1,10 +1,11 @@
 import React from "react";
 import Global from "./styles/global";
+import Header from "./components/header/index"
 
 const App = () => {
   return (
     <div>
-      <div>App</div>
+      <Header></Header>
       <Global></Global>
       </div>
   );
